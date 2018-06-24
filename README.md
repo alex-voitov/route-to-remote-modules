@@ -4,7 +4,8 @@ This project was created to demonstrate how to load remote angular modules dynam
 So the idea is to have one host app and multiple plugins(angular modules hosted remotely), 
 The host app once it loaded to the browser queries the server for plugins config, located at http://localhost:4200/assets/app-config.json
 
-#Remote plugin configuration:
+## Remote plugin configuration:
+```json
 {
   "name": "TestRemote1Module", // name of the plugin
   // loader settings
@@ -21,6 +22,7 @@ The host app once it loaded to the browser queries the server for plugins config
 	"deps": ["@angular/core", "@angular/common", "@angular/router"]
   }
 },
+```
 	
 The project contains... 
  a)main "host" application, which has just one lazy module called "Local Module".
