@@ -1,0 +1,21 @@
+{
+  "name": "test-remote3",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/test-remote3.umd.js",
+  "module": "fesm5/test-remote3.js",
+  "es2015": "fesm2015/test-remote3.js",
+  "esm5": "esm5/test-remote3.js",
+  "esm2015": "esm2015/test-remote3.js",
+  "fesm5": "fesm5/test-remote3.js",
+  "fesm2015": "fesm2015/test-remote3.js",
+  "typings": "test-remote3.d.ts",
+  "metadata": "test-remote3.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

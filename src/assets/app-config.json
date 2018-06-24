@@ -1,0 +1,34 @@
+{
+  "plugins" : [
+    {
+      "name": "TestRemote1Module",
+      "loader" : {
+        "path": "test-remote1",
+        "module": "TestRemote1Module",
+        "selector": "lib-test-remote1",
+        "url": "http://localhost:4200/assets/test-remote1/bundles/test-remote1.umd.js",
+        "deps": ["@angular/core", "@angular/common", "@angular/router"]
+      }
+    },
+    {
+      "name": "TestRemote2Module",
+      "loader" : {
+        "path": "test-remote2",
+        "module": "TestRemote2Module",
+        "selector": "lib-test-remote2",
+        "url": "http://localhost:4200/assets/test-remote2/bundles/test-remote2.umd.js",
+        "deps": ["@angular/core", "@angular/common", "@angular/router"]
+      }
+    },
+    {
+      "name": "TestRemote3Module",
+      "loader" : {
+        "path": "test-remote3",
+        "module": "TestRemote3Module",
+        "selector": "lib-test-remote3",
+        "url": "http://localhost:4200/assets/test-remote3/bundles/test-remote3.umd.js",
+        "deps": ["@angular/core", "@angular/common", "@angular/router"]
+      }
+    }
+  ]
+}

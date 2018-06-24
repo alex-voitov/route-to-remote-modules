@@ -1,0 +1,46 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "paths": {
+      "test-remote": [
+        "dist/test-remote"
+      ],
+      "test-remote/*": [
+        "dist/test-remote/*"
+      ],
+      "test-remote1": [
+        "dist/test-remote1"
+      ],
+      "test-remote1/*": [
+        "dist/test-remote1/*"
+      ],
+      "test-remote2": [
+        "dist/test-remote2"
+      ],
+      "test-remote2/*": [
+        "dist/test-remote2/*"
+      ],
+      "test-remote3": [
+        "dist/test-remote3"
+      ],
+      "test-remote3/*": [
+        "dist/test-remote3/*"
+      ]
+    }
+  }
+}
